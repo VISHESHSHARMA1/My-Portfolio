@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./mediaquries.css"/>
+
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo" >Vishesh Sharma</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+ <div class="logo" >Vishesh Sharma</div>
+ <div class="hamburger-menu">
+    <div class="hamburger-icon" onclick="toggleMenu()">
+     <span></span>
+     <span></span>
+     <span></span>
+    </div>
+    <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+    </div>
+  </div>
+ </nav>
+
+ <section id="profile">
+    <div   class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Vishesh Sharma profile picture" />
+    </div>
+    <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Vishesh Sharma</h1>
+        <p class="section__text__p2">Web Developer & Programmer</p> 
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('assets/Vishesh-Resume.pdf')">
+                Download Resume
+            </button>
+               <button class="btn btn-color-1"
+               onclick="location.href ='./#contact'">
+                Contact Info</button> 
+        </div>
+        <div id="socials-conatiner">
+            <img src="./assets/linkedin.png"
+             alt="My Linkdin profile" class="icon"
+            onclick="location.href='https:www.linkedin.com/in/vishesh-sharma-1a3b0b226/'"/>
+
+            <img src="./assets/github.png" alt="My github profile" class="icon"
+            onclick="location.href='https:github.com/VISHESHSHARMA1'"/>
+        </div>
+    </div>
+ </section>
+
+ <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+        <div class="section__pic-container">
+            <img src="./assets/about-pic.jpg" alt="Profile Picture" class="about-pic" />
+        </div>
+        <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img src="./assets/experience.png" alt="experience icon " class="icon"/>
+                    <h3>Professional Experience</h3>
+                    <p> Intern at <br> Info aidTech </p>
+                </div>
+
+                <div class="details-container">
+                    <img src="./assets/education.png" alt="education icon " class="icon"/>
+                    <h3>Education</h3>
+                    <p> Bachelor’s of Technology <br>Computer Science & Engineering<br></p>
+                </div>
+            </div>
+            <div class="text-container">
+                <p>
+                    Currently pursuing B.Tech in Computer Science and Engineering from GL Bajaj Institute of Technology and Management, Greater Noida. Completed 12th from SR Public School, Orai, Jalaun.
+
+Passionate about web development, I've undertaken diverse projects and am currently mastering full-stack development. Proficient in HTML, CSS, JavaScript, React and MySQL, with a focus on creating responsive and user-centric applications.
+
+Driven by innovation and a thirst for knowledge.
+                </p>
+            </div>
+        </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+    onclick="location.href='./#experience'"/>
+    
+ </section>
+ <!-- MY PORTFOLIO BY VISHESH SHARMA -->
+ <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+   <h1 class="title">Experience</h1>
+   <div class="experience-details-container">
+    <div class="about-conatiners">
+        <div class="details-container">
+            <h2 class="experience-sub-title">Web Development</h2>
+            <div class="article-conatiner">
+                <article>
+                    <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                    <div>
+                        <h3>HTML</h3>
+                        <p>Experienced</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                    <div>
+                        <h3>CSS</h3>
+                        <p>Experienced</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                    <div>
+                        <h3>JavaScript</h3>
+                        <p>Experienced</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                    <div>
+                       <span> <h3>Figma</h3></span>
+                        <p>Basic</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                    <div>
+                        <h3>Reactjs</h3>
+                        <p>Intermediate</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                    <div>
+                        <h3>Tailwind CSS</h3>
+                        <p>Intermediate</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="details-container">
+            <h2 class="experience-sub-title">Competitive Programming</h2>
+            <div class="article-conatiner">
+                <article>
+                    <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                    <div>
+                        <h3>C++</h3>
+                        <p>Experienced</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                    <div>
+                        <h3>C</h3>
+                        <p>Experienced</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                    <div>
+                        <h3>Data Structures & Algorithms</h3>
+                        <p>Experienced</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                    <div>
+                        <h3>Object-Oriented Programming</h3>
+                        <p>Intermediate</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                    <div>
+                        <h3>Database Management System</h3>
+                        <p>Intermediate</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                    <div>
+                        <h3>Git and github</h3>
+                        <p>Intermediate</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+    </div>
+   </div> 
+   <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+   onclick="location.href='./#projects'"/>
+ </section>
+ <section id="projects">
+    <p class="section__text__p1"> Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+        <div class="about-conatiners">
+        <div class="details-container color-container">
+            <div class="article-conatiner">
+                <img src="./assets/project-1.jpg" alt="Project1" 
+                class="project-img "/>
+            </div>
+            <h2 class="experience-sub-title project-title">Adventure Sports</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/VISHESHSHARMA1/parallax-website'">
+                    Github
+                </button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://visheshsharma1.github.io/parallax-website/'">
+                    Live Demo
+                </button>
+            </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-conatiner">
+                <img src="./assets/project-2.jpg" alt="Project2" 
+                class="project-img "/>
+            </div>
+            <h2 class="experience-sub-title project-title">Food Lover</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/VISHESHSHARMA1/MY-RESTAURANT-WEBSITE'">
+                    Github
+                </button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://visheshsharma1.github.io/MY-RESTAURANT-WEBSITE/'">
+                    Live Demo
+                </button>
+            </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-conatiner">
+                <img src="./assets/project-3.jpg" alt="Project3" 
+                class="project-img "/>
+            </div>
+            <h2 class="experience-sub-title project-title">Soft Drinks</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/VISHESHSHARMA1/soft_drink_landing_page'">
+                    Github
+                </button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://visheshsharma1.github.io/soft_drink_landing_page/'">
+                    Live Demo
+                </button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+   onclick="location.href='./#projects'"/>
+ </section>
+<!-- MY PORTFOLIO BY VISHESH SHARMA -->
+ <section id="contacts" class="profile-margin" >
+    <p class="section__text__p1 remove">Connect with Me</p>
+    <h1 class="title remove">Check My Profiles</h1>
+    <div class="profile-section contact-info-upper-container">
+        <div class="contact-info-container profile-sub-section btn-color-1">
+            <img src="./assets/leetcodesquare-modified.png" alt="LeetCode icon" class="icon contact-icon"/>
+            <p > <a href="https://leetcode.com/Vishesh_Sharma007/">LeetCode</a> </p>
+        </div>
+        <div class="contact-info-container profile-sub-section btn-color-1">
+            <img src="./assets/output-onlinegiftools.gif" alt="HackerRank icon" class="icon contact-icon"/>
+            <p > <a href="https://www.hackerrank.com/profile/visheshsharma_o1">HackerRank</a></p>
+        </div>
+        <div class="contact-info-container profile-sub-section btn-color-1">
+            <img src="./assets/codechef-icon-modified.png" alt="CodeChef icon" class="icon contact-icon"/>
+            <p > <a href="https://www.codechef.com/users/visheshsharma7">CodeChef</a></p>
+        </div>
+    </div>
+     </section>
+<!-- MY PORTFOLIO BY VISHESH SHARMA -->
+ <section id="contact">
+<p class="section__text__p1">Get in Touch</p>
+<h1 class="title">Contact Me</h1>
+<div class="contact-info-upper-container">
+    <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon"/>
+        <p > <a href="Mail to :vishesh.sma@gmail.com">vishesh.sma@gmail.com</a></p>
+    </div>
+    <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon"/>
+        <p > <a href="https://www.linkedin.com/in/vishesh-sharma-1a3b0b226/">LinkedIn</a></p>
+    </div>
+</div>
+ </section>
+ <!-- MY PORTFOLIO BY VISHESH SHARMA -->
+<footer>
+    <nav>
+        <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <p>Copyright &#169; 2024 Vishesh Sharma.All Rights Reserved</p>
+</footer>
+    <script src="./script.js"></script>
+  
+</body>
+</html>
+
+
+
+   
+  
